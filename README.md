@@ -79,13 +79,13 @@ Contents (see [data/README.md](data/README.md) for the full inventory):
 - `dementia_diagnosis_dates.csv` — 23,828 deidentified diagnosis dates (BDSPPatientID, DiagnosisDateShifted, AgeAtDiagnosis)
 - `psg_manifest.csv` — 10,782 PSG records (the analytic cohort) with the S3 path to each raw recording
 
-Raw deidentified PSG signals are at:
+Raw deidentified PSG signals (BIDS-formatted) are at:
 
 ```
-s3://bdsp-opendata-credentialed/I0001-MGB/...
+s3://bdsp-opendata-repository/PSG/bids/S0001/sub-S0001<BDSPPatientID>/ses-<N>/eeg/...edf
 ```
 
-Use `FileNameNew` from any of the feature tables to locate the matching PSG.
+Use `psg_manifest.csv` for the resolved per-PSG path including session number — 10,377 of the 10,618 analytic PSGs are present at the corresponding BIDS path; 241 (2.3%) were dropped during BIDS conversion.
 
 ### Credentialed access
 

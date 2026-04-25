@@ -12,8 +12,8 @@ s3://bdsp-opendata-credentialed/sleep-dementia-detection/
 | File | Rows × cols | Description |
 |------|-------------|-------------|
 | `study_groups_deid.csv` | 22,985 × 65 | Per-PSG cohort with Elissa Ye's chart-review labels (`Predicted_Stage`: Excluded / No Dementia / Symptomatic / MCI / Dementia), per-disease evidence flags (`Dementia_Enc/dT/ICD/Med/Prob`, `MCI_*`, `AlzD_*`, `VaD_*`, `FTD_*`, `DLB_*`, `PD_*`, `Symptomatic_*`), CDR/MMSE/MoCA scores. Keyed by `BDSPPatientID`, `HashID`, `FileNameNew`. |
-| `dementia_diagnosis_dates.csv` | 23,828 × 3 | `BDSPPatientID, DiagnosisDateShifted, AgeAtDiagnosis` — first chart-review-derived diagnosis date per patient (rule-based, applied to the BDSP-deID release). `DiagnosisDateShifted` is shifted by the same per-patient `ShiftedDays` offset as `DOVshifted` and `DOBshifted`; `AgeAtDiagnosis` is the (true, shift-invariant) age at that diagnosis. The diagnosis date is **not** the PSG date — it is the chart-review event date and typically precedes or follows the PSG by a variable interval (median ~4 years from any PSG). |
-| `psg_manifest.csv` | 10,782 × 9 | One row per PSG in the analytic cohort (8,042 unique participants; matches paper's 8,044). Columns: `BDSPPatientID, HashID, FileNameNew, DOVshifted, Sex, AgeAtPSG, PSGType, group (DEM/MCI/CN), s3_path`. **Use this to fetch the raw PSG signals from `s3://bdsp-opendata-credentialed/I0001-MGB/<FileNameNew>` and re-run feature extraction.** |
+| `dementia_diagnosis_dates.csv` | 23,828 × 3 | `BDSPPatientID, DiagnosisDateShifted, AgeAtDiagnosis`. `DiagnosisDateShifted` is **the date of the clinical encounter where the diagnosis was documented in the medical chart**, shifted by the same per-patient `ShiftedDays` offset as `DOVshifted` and `DOBshifted` (it is *not* the date the chart review was performed — chart review happened in 2025, but the dates here range 1999-2024). Verified shifted by checking `AgeAtDiagnosis = (DiagnosisDateShifted − DOBshifted) / 365.25 − ShiftedDays / 365.25` to floating-point precision across 3,517 cross-joined rows. `AgeAtDiagnosis` is the true, shift-invariant patient age at that visit. The diagnosis date is generally *not* a PSG date (median delta ~4 years from any PSG); use `psg_manifest.csv` for PSG-aligned timing. |
+| `psg_manifest.csv` | 10,618 × 10 | One row per PSG in the analytic cohort (98.5% of the cohort's 10,782 PSGs resolve to a BIDS-format file on S3). Columns: `BDSPPatientID, HashID, FileNameNew, DOVshifted, Sex, AgeAtPSG, PSGType, group (DEM/MCI/CN), session (ses-N), s3_path`. **`s3_path` points directly to the raw `.edf`** at `s3://bdsp-opendata-repository/PSG/bids/S0001/sub-S0001<BDSPPatientID>/ses-<N>/eeg/sub-S0001<BDSPPatientID>_ses-<N>_task-psg_eeg.edf`. Sleep stage annotations live in the same folder (`*_task-psg_annotations.csv` and `*_caisr_annotations.csv`). 241 PSGs (2.3%) don't resolve to a BIDS path — they were dropped during BIDS conversion (e.g. for quality reasons). |
 | `mastersheet_outcome_deid.xlsx` | 8,672 × 41 | `HashID ↔ BDSPPatientID` crosswalk plus survival outcomes for the SBOP cohort (concurrent paper). |
 | `features_macro_deid.csv` | 21,223 × 24 | Sleep architecture: TST, %REM, sleep efficiency, WASO, etc. |
 | `features_alpha_deid.csv` | 18,955 × 43 | α₁ / α₂ / α₃ sub-band powers across stages. |
@@ -26,9 +26,7 @@ All tables use the following deidentified keys:
 
 - `BDSPPatientID` — stable per-patient ID in the BDSP namespace.
 - `HashID` — SHA-256 hash of the source PSG; one per recording.
-- `FileNameNew` — `<HashID>_<YYYYMMDD>_<HHMMSSmmm>` — matches the deidentified PSG folder layout in
-  `s3://bdsp-opendata-credentialed/I0001-MGB/...` so you can join feature
-  rows directly to EEG `.h5`/`.edf` files.
+- `FileNameNew` — `<HashID>_<YYYYMMDD>_<HHMMSSmmm>` — the original-style hashed filename. The corresponding BIDS-organized recording on S3 is at `s3://bdsp-opendata-repository/PSG/bids/S0001/sub-S0001<BDSPPatientID>/ses-<N>/...` (use `psg_manifest.csv` for the resolved per-PSG path).
 - `DOVshifted`, `DOBshifted`, `ShiftedDays` — per-patient random date offset (±365 d) applied
   consistently to every date for that patient.
 
