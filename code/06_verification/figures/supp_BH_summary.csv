@@ -1,0 +1,3 @@
+Task,Total features,Significant (p<0.05 uncorrected),Significant (BH q<0.05),BH-significant positive (OR>1),BH-significant negative (OR<1)
+DEM vs CN,1064,469,420,135,285
+MCI vs CN,1064,510,403,102,301

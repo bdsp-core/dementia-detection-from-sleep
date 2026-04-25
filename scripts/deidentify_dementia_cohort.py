@@ -5,6 +5,10 @@ labels) against `mapping.csv` (PatientID/MRN/DOV → BDSPPatientID/HashID/
 DOVshifted), drops every direct identifier, and writes a row-per-PSG
 deidentified table.
 
+The table also produces a derived `psg_manifest.csv` for the analytic
+(DEM/MCI/CN) cohort, used by external reproducers to locate raw PSG
+recordings on S3.
+
 Modeled on `_box_inspect/bdsp_collab_essentials/create_deid_outcome_mastersheet.py`.
 
 Run from repo root:
@@ -113,6 +117,23 @@ def main():
     UNMATCHED.parent.mkdir(parents=True, exist_ok=True)
     unmatched.to_csv(UNMATCHED, index=False)
     print(f"wrote {UNMATCHED}  ({len(unmatched)} rows; PHI; gitignored)")
+
+    # PSG manifest: one row per analytic-cohort PSG with the S3 path so
+    # external users can fetch raw recordings and re-run feature extraction.
+    manifest_path = OUT.parent / "psg_manifest.csv"
+    ana = deid[deid["Predicted_Stage"].isin(["Dementia", "MCI", "No Dementia"])].copy()
+    keep = ["BDSPPatientID", "HashID", "FileNameNew", "DOVshifted",
+            "Sex", "Age", "TypeOfTest", "Predicted_Stage"]
+    manifest = ana[keep].rename(columns={
+        "Predicted_Stage": "group",
+        "Age": "AgeAtPSG",
+        "TypeOfTest": "PSGType",
+    })
+    manifest["group"] = manifest["group"].map({"Dementia": "DEM", "MCI": "MCI", "No Dementia": "CN"})
+    manifest["s3_path"] = ("s3://bdsp-opendata-credentialed/I0001-MGB/"
+                           + manifest["FileNameNew"].astype(str).str.strip())
+    manifest.to_csv(manifest_path, index=False)
+    print(f"wrote {manifest_path}  ({len(manifest)} rows × {manifest.shape[1]} cols)")
 
 
 if __name__ == "__main__":

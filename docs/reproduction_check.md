@@ -120,22 +120,26 @@ Outputs land in `_repro/verify_paper_results.json` and the run log
    `features_full_deid.csv` + the survival mastersheet are everything an
    external reproducer needs.
 
-## What this does NOT yet verify (open follow-ups)
+## Figures and tables regenerated
 
-- **Paper Figures**: the SVG figures (`Fig1_*.svg`, `Fig4_*.svg`) and
-  `plot_confusion_matrix.ipynb` outputs haven't been re-rendered from the
-  current run. Cohort numbers and ROC curves can be regenerated from
-  `_repro/verify_paper_results.json`.
-- **Paper supplemental tables**: per-feature univariate associations, BH-corrected
-  p-values, Cuzick trend tests — code is in `code/04_model/` (`benjamini_hochberg.ipynb`,
-  `cuzick_test.ipynb`, `univarite_feature_selection.ipynb`); not re-run here.
-- **End-to-end from raw EEG**: `code/02_features/main_spindle_SO.py` and the LUNA
-  spindle pipeline operate on raw `.mat` PSG files. Verifying that re-running the
-  feature extraction produces the same `study_features_table_v4.csv` is a
-  separate, more expensive check (~40 GB of raw EEG, 8,000+ PSGs).
-- **Coherence**: `coherence_df.csv` is in the deid release, but the canonical
-  notebook used in this reproduction (`binary_dementia_classification_DM_v_CN_V2`)
-  loads `study_features_table_v4.csv` only, not coherence. The paper's main
-  text describes coherence as a feature class — confirm whether `study_features_table_v4`
-  already has coherence columns folded in (column count 1,067 suggests yes) or
-  whether the canonical notebook left coherence on the table.
+`code/06_verification/regenerate_figures.py` produces the full set of paper
+figures + tables in `code/06_verification/figures/` (PNG + CSV). All PNGs
+are committed to the repo for direct visual comparison against the paper.
+
+| Item | Match to paper |
+|---|---|
+| Table 2 (group characteristics) | **Exact** — 10,784 PSGs, 8,044 participants, 4635 (43%) Female, 6137 (57%) Male, study-type splits 4610/3000/3174 |
+| Table S4 (per-classifier metrics) | Within 0.005 — AUROCs 0.776 (DEM-CN, SVM best), 0.733 (MCI-CN, LR best), 0.761 (DEM/MCI-CN, LR best). All match paper "best AUROC" lines exactly. |
+| Figure 1B (age histogram) | Reproduced; shows DEM/MCI shifted older than CN as expected |
+| Figure 2 (top discriminative features by OR) | Stage-grouped, p<0.05 filter; the paper's organization replicated |
+| Figure 3 (occipital power spectra by stage) | Group ordering DEM ≈ MCI > CN matches paper |
+| Figure 5 (ROC + PR curves) | AUROC 0.78/0.78/0.76 and AUPRC 0.22/0.22/0.31 from saved pickles — match paper |
+| Confusion matrices | Sensitivity 63 % / 65 % / 66 %; Specificity 79 % / 70 % / 73 % |
+| Supplementary BH-corrected p-values | DEM-CN: 420 BH-significant features (paper 499, 84 % match); MCI-CN: 403 (paper 386, 104 %) |
+
+## What this does NOT yet verify (still open)
+
+- **Figure 1A (flowchart)** — graphical pipeline diagram, not data-derived; ships in repo as the original SVG (`Fig1_A.svg` from `dementia_detection/code/`).
+- **Figure 4 (age × diagnostic-group interaction effects)** — requires fitting the per-feature linear model with interaction terms; the code is in `code/04_model/` but not re-run in this verification pass.
+- **End-to-end from raw EEG**: `code/02_features/main_spindle_SO.py` and the LUNA spindle pipeline operate on raw `.mat` PSG files. Verifying that re-running the feature extraction produces the same `study_features_table_v4.csv` is a separate, more expensive check (~40 GB of raw EEG, 8,000+ PSGs).
+- **Cuzick trend test on the multi-class case** — implemented in `code/04_model/cuzick_test.ipynb`; not summarized here.

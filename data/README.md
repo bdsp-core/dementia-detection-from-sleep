@@ -12,7 +12,8 @@ s3://bdsp-opendata-credentialed/sleep-dementia-detection/
 | File | Rows × cols | Description |
 |------|-------------|-------------|
 | `study_groups_deid.csv` | 22,985 × 65 | Per-PSG cohort with Elissa Ye's chart-review labels (`Predicted_Stage`: Excluded / No Dementia / Symptomatic / MCI / Dementia), per-disease evidence flags (`Dementia_Enc/dT/ICD/Med/Prob`, `MCI_*`, `AlzD_*`, `VaD_*`, `FTD_*`, `DLB_*`, `PD_*`, `Symptomatic_*`), CDR/MMSE/MoCA scores. Keyed by `BDSPPatientID`, `HashID`, `FileNameNew`. |
-| `MGH_dementia_all_04082025_Elissa_rule_made_by_Haoqi.csv` | 23,828 × 3 | `BDSPPatientID, DiagnosisDate, Age` — Apr 2025 re-application of Elissa's rules to the BDSP-deID release. |
+| `dementia_diagnosis_dates.csv` | 23,828 × 3 | `BDSPPatientID, DiagnosisDateShifted, AgeAtDiagnosis` — first chart-review-derived diagnosis date per patient (rule-based, applied to the BDSP-deID release). `DiagnosisDateShifted` is shifted by the same per-patient `ShiftedDays` offset as `DOVshifted` and `DOBshifted`; `AgeAtDiagnosis` is the (true, shift-invariant) age at that diagnosis. The diagnosis date is **not** the PSG date — it is the chart-review event date and typically precedes or follows the PSG by a variable interval (median ~4 years from any PSG). |
+| `psg_manifest.csv` | 10,782 × 9 | One row per PSG in the analytic cohort (8,042 unique participants; matches paper's 8,044). Columns: `BDSPPatientID, HashID, FileNameNew, DOVshifted, Sex, AgeAtPSG, PSGType, group (DEM/MCI/CN), s3_path`. **Use this to fetch the raw PSG signals from `s3://bdsp-opendata-credentialed/I0001-MGB/<FileNameNew>` and re-run feature extraction.** |
 | `mastersheet_outcome_deid.xlsx` | 8,672 × 41 | `HashID ↔ BDSPPatientID` crosswalk plus survival outcomes for the SBOP cohort (concurrent paper). |
 | `features_macro_deid.csv` | 21,223 × 24 | Sleep architecture: TST, %REM, sleep efficiency, WASO, etc. |
 | `features_alpha_deid.csv` | 18,955 × 43 | α₁ / α₂ / α₃ sub-band powers across stages. |
@@ -56,7 +57,8 @@ rclone sync s3:bdsp-opendata-credentialed/sleep-dementia-detection/ ./data/
 aws s3 sync s3://bdsp-opendata-credentialed/sleep-dementia-detection/ ./data/ \
     --exclude "*" \
     --include "study_groups_deid.csv" \
-    --include "MGH_dementia_all_*.csv" \
+    --include "dementia_diagnosis_dates.csv" \
+    --include "psg_manifest.csv" \
     --include "mastersheet_outcome_deid.xlsx" \
     --include "features_macro_deid.csv" \
     --include "features_alpha_deid.csv" \

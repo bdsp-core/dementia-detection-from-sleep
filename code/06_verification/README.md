@@ -32,10 +32,26 @@ If you only have the deidentified data from S3
   proper train-balanced / test-imbalanced evaluation. Reproduces the
   paper's headline AUROC = 0.78 and AUPRC = 0.22. Runtime ~30 seconds.
 
+- `regenerate_figures.py` — reproduces the paper's main tables and
+  figures from saved fold-prediction pickles + the cohort PHI:
+    - Table 2 (group characteristics)
+    - Table S4 (per-classifier accuracy/precision/recall/F1/MCC)
+    - Supplementary BH-corrected p-value summary
+    - Figure 1B (age distribution by group)
+    - Figure 2 (top discriminative features by OR, stage-grouped)
+    - Figure 3 (occipital power spectra by stage, DEM/MCI/CN)
+    - Figure 5 (ROC + PR curves, three binary tasks × LR/SVM/RF)
+    - Confusion matrices per task
+  Runtime ~10 seconds. Outputs land in `figures/`.
+
+## `figures/` — sample outputs
+
+Pre-rendered PNGs from a 2026-04-25 run, suitable for visual comparison
+to the paper PDF. The CSVs are the underlying tables.
+
 ## Reproducibility expectations
 
-- **AUROC**: matches paper headline within ±0.02 (seed and grid
-  reduction account for the residual).
-- **AUPRC**: matches within ±0.01 once the test fold preserves the
-  natural ≈4 % dementia prevalence.
+- **AUROC**: from saved pickles, matches paper headline to ±0.005.
+- **AUPRC**: from saved pickles, matches paper to ±0.01.
 - **Cohort sizes**: 10,784 PSGs / 8,044 participants — exact match.
+- **Demographics (Table 2)**: every reported number matches paper exactly.

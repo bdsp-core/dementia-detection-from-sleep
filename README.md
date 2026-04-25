@@ -76,7 +76,8 @@ Contents (see [data/README.md](data/README.md) for the full inventory):
 - `features_macro_deid.csv` — sleep architecture
 - `features_alpha_deid.csv` — α₁/α₂/α₃ sub-band powers
 - `mastersheet_outcome_deid.xlsx` — `HashID ↔ BDSPPatientID` crosswalk + survival outcomes (SBOP cohort)
-- `MGH_dementia_all_04082025_*.csv` — 23,828 deidentified diagnosis dates
+- `dementia_diagnosis_dates.csv` — 23,828 deidentified diagnosis dates (BDSPPatientID, DiagnosisDateShifted, AgeAtDiagnosis)
+- `psg_manifest.csv` — 10,782 PSG records (the analytic cohort) with the S3 path to each raw recording
 
 Raw deidentified PSG signals are at:
 
