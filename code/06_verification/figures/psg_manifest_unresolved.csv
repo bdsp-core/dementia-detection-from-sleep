@@ -1,0 +1,242 @@
+BDSPPatientID,HashID,FileNameNew,DOVshifted,Sex,AgeAtPSG,PSGType,group,failure_mode
+119629080,643722e5174cf0bb6e38330dde5f82927104dc92cfb112e8b857ef8915125ed2,643722e5174cf0bb6e38330dde5f82927104dc92cfb112e8b857ef8915125ed2_20161005_224135000                 ,2016/10/05 00:00:00,Female,66,PSG Diagnostic ,CN,date_unmatched (n_bids_sessions=3)
+113371508,2c34ae84be6550c14308211978245fc356be26609708258eec5e89b523f9830a,2c34ae84be6550c14308211978245fc356be26609708258eec5e89b523f9830a_20120227_210355000                 ,2012/02/27 00:00:00,Male,65,PSG Diagnostic ,CN,date_unmatched (n_bids_sessions=2)
+116940907,09dbd3745428f892c82c84e86ec5fb346d4cd2fdb288c4e465ba11857efffd05,,2014/10/20 00:00:00,Female,72,PSG all night CPAP,CN,subject_folder_missing_on_s3
+114790200,6f54a21828bd6c38205bd1ac14d59f3d64b58ecfa1f738f7828e3325d8e86052,,2011/12/18 00:00:00,Female,50,PSG Diagnostic ,CN,subject_folder_missing_on_s3
+112191089,5d14503a96fd1cc1abc9ebb293196bdac1c80ed30bc9f9347103b755ba650d2c,,2017/01/24 00:00:00,Male,61,PSG all night CPAP,CN,subject_folder_missing_on_s3
+121674407,ca1f89b59f43e591adc6ce9ab6e6dfe1fd47bd89877716b971e3ac475b081596,ca1f89b59f43e591adc6ce9ab6e6dfe1fd47bd89877716b971e3ac475b081596_20150117_224015000                 ,2015/01/17 00:00:00,Male,58,PSG Diagnostic ,CN,date_unmatched (n_bids_sessions=1)
+120412553,58474bab3e89ddb5ed9931b3fbb0807709724718528f28d170d72d3471f17279,,2010/09/03 00:00:00,Male,53,PSG Diagnostic,CN,subject_folder_missing_on_s3
+112587002,f23d20b2e49cd0cb4205fdb72d1583d757fbc241f9923f6ddf0c05a2793d6c6a,,2013/09/11 00:00:00,Male,59,PSG Diagnostic ,CN,subject_folder_missing_on_s3
+114350727,73b3861e3e6957da54c69ef593618d5f224a8bd1c38b62f8cf7745ccf04a7258,,2016/04/10 00:00:00,Female,65,PSG all night CPAP,CN,subject_folder_missing_on_s3
+113832358,b74b4cff2b9dd2892d0b6f2b0aa67ce37c0c2f9503aa22f87f3e70c8f9fe9e90,,2016/03/20 00:00:00,Male,62,PSG Diagnostic ,CN,subject_folder_missing_on_s3
+120802524,21831361c9ba2e07323962f7f48d9b82f651ef898754b218163aa51a8ffcd042,,2016/06/02 00:00:00,Female,52,PSG all night CPAP,CN,subject_folder_missing_on_s3
+117792738,36dfdc5c8381719ca217d8c7dfc50b9f59ace379214a626dedf1a2a708eed32e,,2016/07/13 00:00:00,Female,60,PSG Split night,CN,subject_folder_missing_on_s3
+112383301,c3df6852190b433fe040eba7a6f31437fd9ab18248fa2b8f3f8e9d5cd25038ed,,2016/09/27 00:00:00,Female,57,PSG all night CPAP,CN,date_unmatched (n_bids_sessions=1)
+112295093,019ec548b18bb58b66710703860c7a1f3ad3af080f03fb895ad543c0d50ba5a5,,2009/09/09 00:00:00,Male,75,PSG Split night,CN,date_unmatched (n_bids_sessions=1)
+112977945,f3f151dcdee19b0b090ac8ba89c9c1469f8515a0242d6693c7bd85bb192a393d,,2016/02/27 00:00:00,Male,79,PSG Diagnostic ,CN,subject_folder_missing_on_s3
+122184000,2b8711d71338b1dde27d1963f1aca21c8f48d47b074e29af109bb5d35c1ece92,2b8711d71338b1dde27d1963f1aca21c8f48d47b074e29af109bb5d35c1ece92_20100309_214800000                 ,2010/03/09 00:00:00,Female,53,PSG Diagnostic ,CN,date_unmatched (n_bids_sessions=1)
+120471696,11ebb1fca130812bd690722109d378912037adaae927119cbd57bb5ad0efb344,,2017/03/27 00:00:00,Female,78,PSG Diagnostic ,CN,date_unmatched (n_bids_sessions=1)
+114881514,963e7247035d17321159fe043d3c0408a09daefbf4da280e7b9acb575a95b143,,2016/01/08 00:00:00,Female,53,PSG Diagnostic,CN,date_unmatched (n_bids_sessions=1)
+122298144,e6291af6170604974e2a74a26b85ea5a6041727d91c21568a3b0d2135aac844e,e6291af6170604974e2a74a26b85ea5a6041727d91c21568a3b0d2135aac844e_20130307_225356000                 ,2013/03/07 00:00:00,Male,63,PSG Diagnostic ,CN,date_unmatched (n_bids_sessions=1)
+118809390,74d555bb3dc5a8d6dcd894b646cd0e987788163d19a45ea8be94039ca5555882,74d555bb3dc5a8d6dcd894b646cd0e987788163d19a45ea8be94039ca5555882_20090527_231037000                 ,2009/05/27 00:00:00,Female,67,PSG Diagnostic ,MCI,subject_folder_missing_on_s3
+112762217,96a25ee78f397655efe5d8267cae2c9e45f12cadd75c2edc7ced74292213ee37,,2016/08/03 00:00:00,Female,52,PSG all night CPAP,CN,subject_folder_missing_on_s3
+116594316,11e40a624be4ac67e5562b31013b0a61cdb1f9b5658956712c94ad0265ac7d44,,2016/09/16 00:00:00,Female,61,PSG Diagnostic ,CN,date_unmatched (n_bids_sessions=1)
+120056423,869923421ecb452f66449a10fb997fbb51d08f4c06ae8bc734f5aeed6c3a847a,,2018/01/25 00:00:00,Male,58,PSG Split night,MCI,subject_folder_missing_on_s3
+117918606,cb5c6e1d8ff56dd318d8a7c72ed82746fceeecd9063818565c144aa4cc7a5bb7,,2009/03/01 00:00:00,Male,58,PSG all night CPAP,CN,date_unmatched (n_bids_sessions=1)
+113392385,c1e15d5d5986a6bcd740851d175799fa330a944d9ea617902c43e127e8fa5696,,2017/11/07 00:00:00,Female,57,PSG Split night,CN,subject_folder_missing_on_s3
+117094668,7ade18cc25da2094ff7d80053ce5810796a4e2c8cc14e81b8b89e2e0501a03c6,,2018/02/03 00:00:00,Male,57,PSG Split night,CN,date_unmatched (n_bids_sessions=1)
+116789326,f1124ee55c1a530f12f9be42d9ef989dae6b3c0087552c62b6c0f40783ec3498,,2016/04/21 00:00:00,Male,55,PSG Diagnostic,CN,subject_folder_missing_on_s3
+112757784,b9f84fbf959b1822f70a9b00f3b1f276dfe6d01249cbec49bb54899a53792970,,2015/05/25 00:00:00,Female,58,PSG all night CPAP,CN,date_unmatched (n_bids_sessions=4)
+116105215,d5d472be7b216c73afdf8528dcb148231f22cd0d137027ac426aa6462641a2bf,,2019/02/08 00:00:00,Male,51,PSG all night CPAP,CN,subject_folder_missing_on_s3
+112390257,5a70972c0a121c98fa099ee0fa14998150952cc242440881c7d3a64e7cdd22f0,5a70972c0a121c98fa099ee0fa14998150952cc242440881c7d3a64e7cdd22f0_20161108_211011000                 ,2016/11/08 00:00:00,Male,58,PSG all night CPAP,CN,date_unmatched (n_bids_sessions=3)
+119131648,ba3f7347637f1fc4e587c7f761c81a9d6cf19636234fd97b3114575900fa00b8,,2015/04/30 00:00:00,Female,59,PSG Diagnostic ,CN,subject_folder_missing_on_s3
+115735531,d56c903391edcd4ef9394fdd5c0e1dec714b9b38544d390f853a309080bb876c,,2017/01/09 00:00:00,Female,53,PSG Diagnostic ,CN,date_unmatched (n_bids_sessions=2)
+120051124,90412a818175caa60ec49894e0f0f1c13a29d26c5a48133011470fc8a6b2094f,,2018/05/14 00:00:00,Female,62,PSG Diagnostic ,CN,date_unmatched (n_bids_sessions=1)
+117097077,21b11e73fc6ccdd91e97ee161870cb85f5834d45edb038758d6f85d33b15a42e,21b11e73fc6ccdd91e97ee161870cb85f5834d45edb038758d6f85d33b15a42e_20150124_231609000                 ,2015/01/24 00:00:00,Female,66,PSG Split night,CN,date_unmatched (n_bids_sessions=1)
+111372180,edeeb83d5fdc176654a7596e5763de788bdad72b000e797248c4daaa5e224284,,2014/01/10 00:00:00,Male,77,PSG all night CPAP,CN,subject_folder_missing_on_s3
+117675755,53e9e0e20c450fbe04c187e1d663d7283a76236ca57e26576448dfb16f3849d4,,2013/05/29 00:00:00,Male,78,PSG all night CPAP,CN,date_unmatched (n_bids_sessions=5)
+120814871,681c1babbe007b3ccffac6d302ffd6f6170df732d6292e2e23db8467cb03c849,681c1babbe007b3ccffac6d302ffd6f6170df732d6292e2e23db8467cb03c849_20170501_223410000                 ,2017/05/01 00:00:00,Male,67,PSG Diagnostic ,CN,date_unmatched (n_bids_sessions=1)
+114726785,46d364215a6364d51955ebf2b22ff913426643a400a2aff84ff53fefda115f9b,,2017/01/07 00:00:00,Female,66,PSG all night CPAP,DEM,date_unmatched (n_bids_sessions=2)
+113684408,7c7c3253f600813c02414503fca024d2d526e0853ba0f0def89bbafe107d660c,7c7c3253f600813c02414503fca024d2d526e0853ba0f0def89bbafe107d660c_20161025_223105000                 ,2016/10/25 00:00:00,Female,67,PSG all night CPAP,CN,date_unmatched (n_bids_sessions=1)
+114180283,3732fb39ac86ee95ed49dec88e98a25b1e20a157bd098bbe813836572f4439d0,,2016/09/25 00:00:00,Male,53,PSG Split night,CN,subject_folder_missing_on_s3
+116612602,0cfbed835f90b343db08c8c7bb03bfae019f6288970525b8db5b141ec8f151fd,,2008/07/26 00:00:00,Male,64,PSG Split night,CN,subject_folder_missing_on_s3
+119587494,7d68dcf87b808e43ef2243076846ca402eaaf27894f0bd5432069017beaa3d93,7d68dcf87b808e43ef2243076846ca402eaaf27894f0bd5432069017beaa3d93_20170202_214450000                 ,2017/02/02 00:00:00,Male,69,PSG Split night,CN,date_unmatched (n_bids_sessions=2)
+117187499,0fc8fa4904ee9772962c2122a32d8d48539fe5cda96598fb0950d43c81e6e98d,,2013/08/03 00:00:00,Male,60,PSG all night CPAP,CN,date_unmatched (n_bids_sessions=2)
+112844352,5d29783560818833722bf916211e55e74620ca406bdf375aceaa55c8452f0c75,,2015/09/23 00:00:00,Female,72,PSG Diagnostic ,CN,date_unmatched (n_bids_sessions=1)
+120972259,c13f3f334e33345ec451c9a54f58638d643a17575771a172bbfe6f508b9d092b,,2016/06/21 00:00:00,Male,70,PSG Split night,MCI,subject_folder_missing_on_s3
+120210386,b3437fd0f948a843fb5f77f7907858a1389bd8c3753a1682e4dc358591fa1565,,2015/11/26 00:00:00,Male,64,PSG all night CPAP,DEM,date_unmatched (n_bids_sessions=2)
+119795524,1e5167a83100f58d7cef29e6bbb0c5d10a9744a37db4ee7b9a751a5f944a3b96,,2016/10/10 00:00:00,Female,85,PSG all night CPAP,CN,date_unmatched (n_bids_sessions=1)
+116871772,6841fd9f60f543c8e5f968aa27170ad5d9135157e93df61c3513756afeeff12c,,2016/01/21 00:00:00,Female,57,PSG all night CPAP,CN,subject_folder_missing_on_s3
+117177482,dd5c3e63af630f25e04209f51e5f29149d235d01ac7ed6dc8f5be93cfc155f43,,2010/05/09 00:00:00,Female,61,PSG all night CPAP,CN,date_unmatched (n_bids_sessions=1)
+118409121,9defa945410c90ba9a4bc6c80bb89c85f47004686251be65f828721846660b91,,2019/05/04 00:00:00,Female,58,PSG all night CPAP,CN,subject_folder_missing_on_s3
+116044141,e2508121e79df8bc6ce3718c4bb89e8e94ebea0225262fbe60453baffce03593,,2011/08/02 00:00:00,Male,54,PSG all night CPAP,CN,subject_folder_missing_on_s3
+118984257,237131428c19c7b2c29b58990bafc6f5c52129387419856308b780ef72179398,,2015/10/18 00:00:00,Female,59,PSG Diagnostic ,CN,subject_folder_missing_on_s3
+119321766,5d8d6e138d8c55eb16601be6d60436b0326e476590610875f67062cf4fe70b64,,2010/11/29 00:00:00,Female,81,PSG Diagnostic,CN,subject_folder_missing_on_s3
+115093666,b13049fd53a889122d6f230f354de94d5809ca7b69d32cbcf65db2bc558e550d,,2016/10/21 00:00:00,Female,58,PSG Diagnostic ,DEM,date_unmatched (n_bids_sessions=2)
+113363696,1c60b6bbf9473ffd1edbfab5d638537030a74baaa18a89d9a991cd279ee3615c,,2010/02/08 00:00:00,Male,70,PSG all night CPAP,CN,date_unmatched (n_bids_sessions=2)
+118868470,d44d877828de8166537ed5ebab2bf7291b1f506a9907ba8599df45125d84a6f3,,2016/08/12 00:00:00,Female,61,PSG all night CPAP,CN,date_unmatched (n_bids_sessions=2)
+111721702,70cd3e43cbbf8f8b9b16e346cfcfdf68242f6d22b0a0bd3c52c37c7733866e52,,2015/08/14 00:00:00,Female,68,PSG Split night,CN,subject_folder_missing_on_s3
+114250138,96c16bcc2c0359fbe1262fbb395c2ec1ef03daa7265201ddb20b7c65b7552717,,2016/01/14 00:00:00,Male,63,PSG Diagnostic ,CN,subject_folder_missing_on_s3
+111446013,1ae08c8caad427f28f954817ca5b9fc026aad8ed8774c7271561b4ac7ae3bbcc,,2016/10/07 00:00:00,Female,84,PSG all night CPAP,DEM,date_unmatched (n_bids_sessions=1)
+118734532,1b8b9572859023c7cf0d6137b9aacf3e3555faa53b85cf12459808351e0d9f34,,2016/05/28 00:00:00,Male,66,PSG Split night,CN,subject_folder_missing_on_s3
+121283113,edf4af746c61de2b7bbac8a737d049f36f4403485b7378e6c57581233f241c09,,2016/08/23 00:00:00,Male,68,PSG Diagnostic ,CN,subject_folder_missing_on_s3
+114161805,cef521faa15406cc70a763690ccc8d0ba0b0ea335942f235c3925b2b0e524178,,2017/09/28 00:00:00,Male,73,PSG all night CPAP,MCI,date_unmatched (n_bids_sessions=4)
+113235668,a60ee6089475407809afa72ca442c6e2a5e79ec815f22edd80ab84c13fc7d100,,2015/10/15 00:00:00,Female,70,PSG Diagnostic ,CN,date_unmatched (n_bids_sessions=1)
+114853119,33cdc503b491331b617b40c62a7f15f1fb683714d1763d808abb77b1408fc050,,2016/11/19 00:00:00,Male,77,PSG Split night,CN,date_unmatched (n_bids_sessions=5)
+117324156,f55bb259d2aa1c404b594ba75414ca94e23ee2c5b9d6eb7e10aec9a4c92d07b5,,2016/09/08 00:00:00,Female,58,PSG Diagnostic ,CN,subject_folder_missing_on_s3
+121372875,96a6de3a350a03271d683cc3e2e6c092e343837e8eae7fc339617bb1a47bc3a3,,2016/04/09 00:00:00,Male,68,PSG Diagnostic ,CN,date_unmatched (n_bids_sessions=1)
+111675114,e334ca000f2bd4bcbed20675060e0f57f8c7786edee39466924fe42d8961846a,,2016/12/31 00:00:00,Male,75,PSG Diagnostic,CN,subject_folder_missing_on_s3
+119209971,7f07bf44739e260d8d966e1b5d8cb3c00b1ed55fd8457cc23c9650fc512c9033,,2016/03/27 00:00:00,Male,52,PSG Split night,CN,subject_folder_missing_on_s3
+117812680,e95cfa80349bfef6cc64c81cf4e4bc1e7787724c701d1203a00b8d1346f4892a,,2015/10/30 00:00:00,Male,57,PSG Split night,CN,subject_folder_missing_on_s3
+117323373,8cb3e3fc5c7203fa5e4fce5fc4530c19bf681a57a85f1f47521a437b94db627e,,2015/10/25 00:00:00,Female,68,PSG Split night,CN,subject_folder_missing_on_s3
+115230943,4acb119d14a83f78669cf9b6cc0593eaa4f46516ad7edffe31732b12785901f5,,2016/01/16 00:00:00,Female,53,PSG all night CPAP,CN,date_unmatched (n_bids_sessions=2)
+114389100,6c0a0394d93e662e381c5bb28eebccab3f8fe4705ba0a8fa8986baaff188c907,,2015/11/30 00:00:00,Male,70,PSG Diagnostic ,CN,date_unmatched (n_bids_sessions=2)
+111389826,3a3360cb695fa445a859e135a034a8c6e655299044710f61f2719706d87bf8ac,,2014/06/25 00:00:00,Male,67,PSG Split night,CN,subject_folder_missing_on_s3
+112849122,6d3c9195a6b93b818ac38a475bb259ac475f621c2ea5c2cc8c5ffd7c26e65faa,,2010/12/16 00:00:00,Male,55,PSG Split night,CN,subject_folder_missing_on_s3
+120248329,3d6dd14a7a592121b66bfcd1c06e8044fa0ee1ac2bce0771773f586fa851e68b,,2016/12/01 00:00:00,Male,55,PSG all night CPAP,MCI,subject_folder_missing_on_s3
+113428486,45715b7eacf70a61e944c4e01a5455ff4c8929064191267f466773e6ca09a5b2,,2016/09/12 00:00:00,Female,61,PSG Diagnostic ,CN,subject_folder_missing_on_s3
+120582836,a068e81ab7dd847255ab7512ce9481a257477473cad2db18c3468bfdcac0ae41,,2015/07/13 00:00:00,Male,75,PSG Diagnostic ,MCI,date_unmatched (n_bids_sessions=1)
+118452621,1a171d217a5ce3629889a1da6c22a767997f90e66a7f9598622cc826074e3908,,2009/03/17 00:00:00,Female,53,PSG Diagnostic ,CN,date_unmatched (n_bids_sessions=1)
+117610733,e3bd49f991b80be06847b718ceb90a4afb8fd9e3cca655863b24a504019f6d2f,,2016/11/15 00:00:00,Male,52,PSG Split night,CN,date_unmatched (n_bids_sessions=1)
+118113447,845a1ead60edf1a1ccbcf8c9935029e9abb2a93dc2d72fba9dde7e314683d38e,,2016/02/21 00:00:00,Female,65,PSG Split night,CN,date_unmatched (n_bids_sessions=1)
+112925322,08250914456ab0481e4312237b3b6b81b869f8a4d5eb7bb1316a027786c6ff46,,2015/09/19 00:00:00,Male,67,PSG Diagnostic ,CN,subject_folder_missing_on_s3
+117884505,0afb3e71773285863d0f7de7e4826abcbc08e5c035cf8c0cce6a620a31c830d1,,2016/05/01 00:00:00,Male,58,PSG all night CPAP,CN,date_unmatched (n_bids_sessions=2)
+120999556,ce6c21e8176ebe60c11ad5830c817a50a491d26a8740e4a83435fa5271df573e,,2016/05/19 00:00:00,Female,65,PSG Diagnostic ,CN,date_unmatched (n_bids_sessions=2)
+121770230,74581334b230b323301729dc150cda673a63db446f6dcdf865ff8ad59eaac948,,2017/07/16 00:00:00,Female,76,PSG Diagnostic ,CN,subject_folder_missing_on_s3
+121209129,f8141419cb7725c1313f5befed8253f3f9420aa16977b5e9c2d33bf7240d185d,,2016/11/29 00:00:00,Male,51,PSG all night CPAP,CN,subject_folder_missing_on_s3
+113446885,d2779023e1d61ff16cd6ba35f7c9ba7ad4aae108fc3940691dc9a6954c22a2f4,d2779023e1d61ff16cd6ba35f7c9ba7ad4aae108fc3940691dc9a6954c22a2f4_20130901_230733000                 ,2013/09/01 00:00:00,Male,75,PSG Diagnostic,CN,date_unmatched (n_bids_sessions=1)
+120066465,bb2e46aa0390c2f14159993bbc75d3382a495040d5ebdab7a668a6c313767f2a,bb2e46aa0390c2f14159993bbc75d3382a495040d5ebdab7a668a6c313767f2a_20120731_234312000                 ,2012/07/31 00:00:00,Male,68,PSG all night CPAP,CN,subject_folder_missing_on_s3
+115910425,2bc54f534ddc07a01dc6288f1450caf2d76e3f10bb249d001a22c748620ae989,,2010/11/09 00:00:00,Male,59,PSG Diagnostic ,CN,subject_folder_missing_on_s3
+119235706,c5542feb2b466421bfcccf56ab64e3b3eebca1ed4c9ff043f438200bd84a95af,,2018/01/22 00:00:00,Female,68,PSG Diagnostic ,CN,subject_folder_missing_on_s3
+115168341,6b226c38bfbaf8613b6e80073d94a3633e37cb3a4fccc6bf2b34e9e9d7369c15,,2016/09/10 00:00:00,Female,82,PSG Diagnostic ,CN,subject_folder_missing_on_s3
+114152311,80bbda03d1e049d5f56bec1849ff84d7088107ac3f4fea48375492e45eeff604,,2015/10/03 00:00:00,Female,74,PSG all night CPAP,MCI,date_unmatched (n_bids_sessions=4)
+122241400,ae41c4da98d0621e27d258247f36b80d503fa636265da3cbfe8d6b47c303a0e3,,2016/11/22 00:00:00,Male,78,PSG all night CPAP,DEM,date_unmatched (n_bids_sessions=4)
+122243468,e56ab04a3ece5769ad85acc3e652737dd83837ea575fbb7102d2f2027cbe8250,,2016/03/14 00:00:00,Male,56,PSG all night CPAP,CN,date_unmatched (n_bids_sessions=1)
+111362449,96ef87dbfbe0cfcfe8035a12a867b452a70067c709218936a6e29288b37e71b1,,2016/12/22 00:00:00,Male,71,PSG Split night,DEM,date_unmatched (n_bids_sessions=1)
+119968333,98777925c7fe1c2993fba9ad8358055589af0263c257a9356b0b0c7718e383ac,,2017/06/03 00:00:00,Male,52,PSG Diagnostic ,CN,subject_folder_missing_on_s3
+119893191,b775240558b8174187a65e47f8fdd5dd433ca9eedcda7e8913ce4bfacbb9d392,,2017/07/12 00:00:00,Female,61,PSG all night CPAP,CN,subject_folder_missing_on_s3
+111372284,15cb057ec7b15e33a4e3bf6b69d50eb540dd38bd383049a69ff49fe3e86edcbf,,2017/08/30 00:00:00,Female,81,PSG Split night,CN,subject_folder_missing_on_s3
+112703473,e4600df94ac26c7999b09c78ec073830a114d0e5e95e897b06bace7ac9e61fab,,2016/12/10 00:00:00,Female,59,PSG Diagnostic ,CN,subject_folder_missing_on_s3
+117466333,b5bbea2fdc1617e1d25d462d40cee0ed9fe0f25152777729fd0580c964a20908,,2017/04/20 00:00:00,Male,62,PSG Split night,CN,subject_folder_missing_on_s3
+113768514,783fe8cd07159e2787ef4f7a7ce13dbc7e52251b500c344d34b837fb827fa585,,2008/02/25 00:00:00,Female,73,PSG all night CPAP,CN,date_unmatched (n_bids_sessions=4)
+117887757,88652620697d949dbc05c4106be6e82989493202adbfd30e900ab5f97ac36381,,2015/10/03 00:00:00,Male,75,PSG Diagnostic ,CN,date_unmatched (n_bids_sessions=4)
+114185278,d74d27591e0cb47385550ddaf60bcd2e92a523a5b7a1e71007733842b47d423b,,2016/01/29 00:00:00,Male,50,PSG Diagnostic ,CN,subject_folder_missing_on_s3
+119546499,311aac6ae77712a9d80342727ff59fdeba99e57fcab5294b43743c9a4fb8d009,,2015/11/15 00:00:00,Male,72,PSG Diagnostic ,CN,subject_folder_missing_on_s3
+112005280,6087b56534f7648045c34b6f9f2f80ec2fb0d44e36e7373291b0cc41cafbe140,,2016/04/23 00:00:00,Male,66,PSG Split night,CN,date_unmatched (n_bids_sessions=1)
+120162915,9f4760c585f994da7141e2c944f75ae8224dc8759e4486d3fb7cbd41fcd686c2,,2017/09/30 00:00:00,Male,87,PSG all night CPAP,CN,date_unmatched (n_bids_sessions=1)
+120945571,33bb20f7b6a19fccaaa377881f3a7e727d8ee18e3711baaa83baae7aad9f9a27,,2017/04/23 00:00:00,Female,58,PSG all night CPAP,CN,date_unmatched (n_bids_sessions=2)
+113294232,e734250dcbbfa66650657672bd75ed53d7c525d4755e6131b4278eb5e8f76158,,2017/05/02 00:00:00,Female,83,PSG Split night,CN,subject_folder_missing_on_s3
+116569221,a8388189c83b828e3fb2c32c5760dff2185aee5d678280b81d7d814cf70fa39d,,2016/02/26 00:00:00,Male,56,PSG all night CPAP,CN,date_unmatched (n_bids_sessions=1)
+114532522,02becc1bd038ecc9c7212f08c25d4e8ca7b62d9b1e72ae04a30d410fc816bb8e,,2017/07/15 00:00:00,Male,62,PSG Split night,CN,date_unmatched (n_bids_sessions=1)
+111821694,35f41234672ce1da74c85180c7b63cf3250fc79f1b5e5d47684e656f3b1c42ca,,2009/06/14 00:00:00,Male,53,PSG all night CPAP,CN,subject_folder_missing_on_s3
+121032635,c98b9c97a1d24048e419f75a2cfaf4b0b68f862b1096c0320d994b8f8a27748e,,2016/09/21 00:00:00,Male,76,PSG all night CPAP,CN,subject_folder_missing_on_s3
+121811872,c8296ccf4f30e57f487e558df9e09d773b2c43fa747ca91cfc5a67b3ebbdc010,,2016/02/03 00:00:00,Female,79,PSG Diagnostic ,CN,subject_folder_missing_on_s3
+117905093,60ddbfd38e3e2d695669e6d50ad76b3d4f146e0a69fc876314ff4398646c6892,,2016/03/22 00:00:00,Male,56,PSG all night CPAP,CN,subject_folder_missing_on_s3
+113648425,aebbec2a7b029c1950af6168b89c1c6e526c9ed0bcc5dc042c4c4c19c67a26e4,,2015/10/10 00:00:00,Female,57,PSG Diagnostic ,CN,subject_folder_missing_on_s3
+113037270,6edd6e521dd25c09cbfb77de64a22123f2168f71e07e0f405c1afe4da08f5070,,2016/04/20 00:00:00,Male,51,PSG Diagnostic ,CN,subject_folder_missing_on_s3
+113778980,d7af3a11238e02eff9c7f99ab02fccbc65d88de6afd38771602a9b325f901869,,2016/01/21 00:00:00,Female,64,PSG Diagnostic ,DEM,date_unmatched (n_bids_sessions=2)
+115845336,c0037cb43ace411e4c7e163a80129afc12717a5946c765238c044f25e1d1c268,,2017/01/12 00:00:00,Male,67,PSG Split night,CN,subject_folder_missing_on_s3
+116725645,8fbfb32f23a1bc0d703649ee548981d07700dedf3380f94a9700d9c258e031f8,,2015/12/26 00:00:00,Male,55,PSG all night CPAP,CN,date_unmatched (n_bids_sessions=3)
+111913229,490f8642ecf9a32daa68c93a2f6b15b2200c7713e1a061e56e05dcdf0c56f6e8,,2015/10/26 00:00:00,Male,59,PSG all night CPAP,CN,subject_folder_missing_on_s3
+119886600,b18bde791f4c3cfcdcf4a0f8211cf5b6c785f35daa4f8fcb6dc8bc73e85ead8e,,2016/06/15 00:00:00,Male,60,PSG all night CPAP,CN,date_unmatched (n_bids_sessions=1)
+113863974,541eb3184aeafb0aa390ce902a140bbf0b722dc477e98cb181c6270cb3854343,,2010/05/13 00:00:00,Female,60,PSG Diagnostic,CN,subject_folder_missing_on_s3
+118294693,c97dc33e7f3908810bb176f607dddcb127f82644f830d25848bbc04c8d961885,c97dc33e7f3908810bb176f607dddcb127f82644f830d25848bbc04c8d961885_20150414_225213000                 ,2015/04/14 00:00:00,Male,71,PSG Diagnostic,CN,subject_folder_missing_on_s3
+114972270,b169ef9f30ca3a184f14eae0e60e4b3c828b7b8b5694bef1ea7441ceb7b6f756,,2009/06/17 00:00:00,Male,58,PSG all night CPAP,CN,subject_folder_missing_on_s3
+119701575,94fe773e2ebeca9951a4ce4cce98f2852fb54eac03a4d22d15efc87d24bc38e7,,2016/10/11 00:00:00,Female,72,PSG Split night,DEM,subject_folder_missing_on_s3
+116785745,6becbf6e8254487ea4e00c9299f694025ec435986d858418caeb563e1bde438c,,2016/01/17 00:00:00,Male,68,PSG Diagnostic ,CN,subject_folder_missing_on_s3
+116965581,aeb1469ae2152aec7cf3ea73e249a0ef3c840d64f576677e946fa28b558a1841,,2016/07/15 00:00:00,Male,54,PSG Diagnostic ,CN,subject_folder_missing_on_s3
+119679605,c0cdcac1529a4dad067834c3a1f2d496ad5597bc41696d2b9dd6a51cdf41ed6e,,2018/01/10 00:00:00,Female,56,PSG Split night,CN,subject_folder_missing_on_s3
+121477874,ef909bd1d2c6647cf644d33a0f0d726e8ed6a071bb297a4520c9a452c71f50bb,,2016/03/22 00:00:00,Female,63,PSG all night CPAP,CN,date_unmatched (n_bids_sessions=4)
+117234226,f6598759846b5d653600b9f6acbbb118a13dda1c55777326084307f9374d321c,,2017/02/17 00:00:00,Male,76,PSG Diagnostic ,CN,date_unmatched (n_bids_sessions=1)
+114968413,9139538bb87b7e18ad9cd476cde05b15ff9fedff4a88db0c64ae873c2ea13935,,2017/03/22 00:00:00,Male,75,PSG all night CPAP,MCI,date_unmatched (n_bids_sessions=1)
+121790140,f853d6628d03210ff392837261c967f94bcd5ec63f44f0e992245fc4578f0112,,2016/05/03 00:00:00,Female,55,PSG Split night,CN,date_unmatched (n_bids_sessions=1)
+112260706,efa28a23efe03754740024b373e432971ce0beb68c0793993d2aa2057620334f,,2017/02/05 00:00:00,Female,52,PSG all night CPAP,CN,subject_folder_missing_on_s3
+115712986,fe2bd8b85207efa1d275b2d2a06b4f9e111ef7c5bd712ad4796aa5e5878a23e3,,2017/01/05 00:00:00,Female,67,PSG all night CPAP,CN,date_unmatched (n_bids_sessions=2)
+113425857,3c745284a59bb024f7cf67a70271aa1e82b89f0e61aa279a44d4a35173b3ff0a,,2015/12/03 00:00:00,Male,62,PSG Split night,CN,subject_folder_missing_on_s3
+116966427,82423facfbfe97251ecc386d7f35e587375697e5d4e50bebd9d89451f7a33567,,2016/01/23 00:00:00,Male,53,PSG all night CPAP,CN,subject_folder_missing_on_s3
+119471742,99194d170d6b3731807aab17a16dcea72591d5948241e5f37681675a202476d9,,2017/07/20 00:00:00,Male,71,PSG Diagnostic ,CN,subject_folder_missing_on_s3
+113222419,2b1d545a317f6b8f932c8f0569e9bc6821607c411275d6e55e96347aecbf5258,,2015/12/21 00:00:00,Female,70,PSG Diagnostic ,CN,subject_folder_missing_on_s3
+118769765,6ddbe35781a96b91616690e1527f37f63ec2882fb48f3d66e57bc7643bdea8c9,,2015/08/15 00:00:00,Male,67,PSG Diagnostic ,CN,subject_folder_missing_on_s3
+114332384,dfe70946c492a4d5ffe6b4b740e88c3f2ac357f057b7ec1dd91718c313eae829,,2017/05/13 00:00:00,Female,52,PSG Diagnostic ,CN,subject_folder_missing_on_s3
+120701004,1957f7c74a2de5fa826cc02ea2cb484a7783140bce5bf25e8fac7f732c69e3af,,2016/11/27 00:00:00,Male,52,PSG all night CPAP,CN,date_unmatched (n_bids_sessions=1)
+118461905,4e0e1d6aae71f0599b8d45c7ed327b0a02e9c70d627942b275d9402b0782754a,,2016/09/19 00:00:00,Male,70,PSG Split night,CN,date_unmatched (n_bids_sessions=2)
+116867588,119c25be247ead47aeb9945be1c41163835e69fe08c9d4d17f96aebc21fcb671,,2017/03/16 00:00:00,Female,84,PSG Diagnostic ,CN,subject_folder_missing_on_s3
+111713904,e98bedb7e2ddeaedf733b4524c3601bef3cf6a531b8eb362fcfed486019d475c,,2016/11/07 00:00:00,Male,68,PSG all night CPAP,CN,date_unmatched (n_bids_sessions=1)
+120892031,8b5a9fec575bafc24ede87d8e6e8a5f0c4464b8c1e73dd1eb32401d943eb4142,,2015/09/26 00:00:00,Male,71,PSG Split night,DEM,date_unmatched (n_bids_sessions=2)
+116588421,2dd5dc6bc12ba3bb471b1af981126c1ff7098827c2e966c8038faefc2d0f73eb,,2017/09/21 00:00:00,Male,76,PSG Split night,CN,date_unmatched (n_bids_sessions=1)
+112062220,3f3d46b1307c5b8f9dc29650060bf398b4c3d59a835175142baa79588bf15bce,3f3d46b1307c5b8f9dc29650060bf398b4c3d59a835175142baa79588bf15bce_20140825_234558000                 ,2014/08/25 00:00:00,Female,57,PSG Split night,CN,date_unmatched (n_bids_sessions=1)
+113147957,94bde6975e2656a74dd56a4e622e14ca738d4f02866034ebbd6e01267ff98902,,2016/05/14 00:00:00,Male,79,PSG Split night,CN,subject_folder_missing_on_s3
+111763081,fcc0c83153ff019e39da23c9d800e2980c1d4bc0ad93ffd68e29dcce028385d2,,2016/04/21 00:00:00,Male,56,PSG Diagnostic ,MCI,date_unmatched (n_bids_sessions=1)
+118663387,6e25cf17b8c15838b7d550413014bd982b55436d6ba0dd6cb1b42b9059571e4c,,2016/05/12 00:00:00,Male,82,PSG all night CPAP,CN,date_unmatched (n_bids_sessions=2)
+117428540,a3988541e9cb93af834c5d86b421952ad9fd562f33a49f0fd029e644ad332c71,,2018/08/17 00:00:00,Female,65,PSG Diagnostic ,DEM,subject_folder_missing_on_s3
+119937474,5c600c01d3d0dfa1a0735873ee64d778c31265bf62de32faa84941be554c4137,,2016/06/07 00:00:00,Male,63,PSG Diagnostic ,DEM,date_unmatched (n_bids_sessions=1)
+120506471,b73215ffc78c6981c24cb768f92654dd6952233651cfef31f4708913521d0b57,b73215ffc78c6981c24cb768f92654dd6952233651cfef31f4708913521d0b57_20160505_225843000                 ,2016/05/05 00:00:00,Female,72,PSG Diagnostic ,CN,date_unmatched (n_bids_sessions=2)
+118632942,eac61119c42a1b40cae62dbd762353112b3daa5115b45916421049ecd88e99c2,,2016/05/14 00:00:00,Female,69,PSG Diagnostic ,CN,subject_folder_missing_on_s3
+115857572,b7717b29735c14380ed6362052697858689b758db9517b16891d60cd360a0f33,b7717b29735c14380ed6362052697858689b758db9517b16891d60cd360a0f33_20181229_215634000                 ,2018/12/29 00:00:00,Male,68,PSG Diagnostic ,CN,subject_folder_missing_on_s3
+118727543,9336b069bc782cfa21c502374a2941395a363002b9bd33eedbade3910d24d940,,2011/08/05 00:00:00,Male,57,PSG Split night,CN,date_unmatched (n_bids_sessions=1)
+121575821,d2c3e73d9ff740e5686ce6c5ef8107e1fadd517ad89f886620dabcdf2f147f45,,2009/06/19 00:00:00,Male,78,PSG Split night,CN,date_unmatched (n_bids_sessions=2)
+114618120,c54ae0e09a7e94e1854254589422cc9fe3d723cf1d09eb225f4ea73513228536,,2008/07/12 00:00:00,F,58,PSG Diagnostic ,CN,subject_folder_missing_on_s3
+122349622,81e2e1a23a4eac37fdde4bf96a3dbdee002a5471927a30a93a2024466d740c0f,,2016/08/03 00:00:00,Female,66,PSG Diagnostic ,CN,subject_folder_missing_on_s3
+117856210,2e20436be590935b64ac33713311744434f76c4689f5ef99e9d83c34c0c42635,,2016/11/08 00:00:00,Male,74,PSG Split night,CN,date_unmatched (n_bids_sessions=1)
+120688704,1b949c06f36417b096e20ac60e6901ebffba471323b61b8c0b9b7eb78c9830a1,1b949c06f36417b096e20ac60e6901ebffba471323b61b8c0b9b7eb78c9830a1_20161102_215803000                 ,2016/11/02 00:00:00,Female,80,PSG all night CPAP,CN,date_unmatched (n_bids_sessions=2)
+111452658,1e4d88955087ec361ef00f98578398b79a589285319d7e1d01b81c61efbe25e2,,2017/09/18 00:00:00,Male,62,PSG Split night,CN,subject_folder_missing_on_s3
+118865430,a2597a7c8b94a3ac792b0e5741687360e690a473c5968a0b62d58236bf4343b4,,2016/02/06 00:00:00,Male,61,PSG all night CPAP,CN,subject_folder_missing_on_s3
+119756713,b8c262510f44d14eecab94f9835ab7d47e37dabfca10c88a3ce6c6928e78408b,,2008/09/11 00:00:00,Male,56,PSG Diagnostic ,CN,subject_folder_missing_on_s3
+111658911,3639ceb668d2636d8da4f6432d1a694205adc8449d11d92f3f71d38b95e27a30,,2016/04/23 00:00:00,Male,66,PSG Diagnostic ,MCI,subject_folder_missing_on_s3
+120803473,be5a1a92c7c57091d6d67e159095d210cde11f067d7ab99429ad01d8b0b82f09,,2017/08/13 00:00:00,Male,68,PSG all night CPAP,CN,date_unmatched (n_bids_sessions=1)
+112963961,0f60c51a1a40be1c4a10e588367012ca68beeb6c8fba4f976ece9732355c3d46,,2009/08/01 00:00:00,Female,60,PSG Split night,CN,date_unmatched (n_bids_sessions=1)
+120112208,70122b951271e4ee011859daf52f0cae565e5061455e7d893f72f3282ecf3a74,,2013/10/31 00:00:00,Female,77,PSG all night CPAP,CN,date_unmatched (n_bids_sessions=1)
+114780456,14f6f4dad42ab9de3888b5436c6e19c9e39d4fd566f6d4dad05840f2c66f04ea,,2017/06/10 00:00:00,Male,57,PSG Split night,CN,subject_folder_missing_on_s3
+115833414,6c4fcedb7c120eaa1e335395c76fed3e742a109d855f02c77fbf7f97ec3fe963,,2017/04/15 00:00:00,Female,70,PSG Split night,MCI,subject_folder_missing_on_s3
+116897689,a1dd56205820400b9ad2bd6b5925ecfa62661f8f81025d5ca876c7be6614ba56,,2016/02/25 00:00:00,Male,52,PSG Diagnostic ,CN,subject_folder_missing_on_s3
+114826426,13a35e6e845f124ff0797572349cd06422617bff11d700c85a97386d1301c45b,,2009/05/05 00:00:00,Male,73,PSG all night CPAP,CN,subject_folder_missing_on_s3
+121661687,c9171a3aa638a3c7b9f16dc882f5dad09003d134f82b256ffb6f5d97377c0755,,2015/07/15 00:00:00,Male,58,PSG Split night,CN,subject_folder_missing_on_s3
+116329637,65211cba5b3100ae907e05e3d1d2d06690a8c7da86d0c8c6a2e0a8d1ec1852bc,,2010/06/20 00:00:00,Male,56,PSG all night CPAP,CN,date_unmatched (n_bids_sessions=1)
+113695542,86c22e87bff5cb210718ba14048a11fbaa6ee77105267a0af76c00f17986846a,,2015/10/06 00:00:00,Female,62,PSG Diagnostic ,CN,date_unmatched (n_bids_sessions=2)
+118952099,fe4d3e3e9a688e38a378a86607250a6154a3e5df5987e411ab64c05328774dcb,,2016/01/02 00:00:00,Female,65,PSG Split night,CN,subject_folder_missing_on_s3
+111823477,ce29243142ec2bdaff7ab8bf87c23e5ba19d1fa758ab9c9cf9edede6747c91de,,2014/03/12 00:00:00,Female,54,PSG Diagnostic ,CN,date_unmatched (n_bids_sessions=1)
+112650945,86724fc39812535db7540a08d6b9dfa672c537c8f04651184f45124570fecce3,,2016/10/26 00:00:00,Female,56,PSG Split night,CN,subject_folder_missing_on_s3
+121797715,17506181d196d764fd97feffc771e53e26f0e4bc2bcfe3eaf81da167e0013553,,2017/05/08 00:00:00,Female,86,PSG Split night,DEM,date_unmatched (n_bids_sessions=2)
+118837368,0b21e602d9f058eb768269b1c30cbb24d7d483076754ebe3f4379b8d77370256,,2017/01/22 00:00:00,Male,60,PSG Split night,CN,subject_folder_missing_on_s3
+120374795,60cff1459c46b3040f9a5abb282b045a1e0676ea9073841a29df20845468aa64,,2015/03/20 00:00:00,Male,68,PSG all night CPAP,CN,date_unmatched (n_bids_sessions=3)
+119573492,8f1f683dc79bcc65a2c2a6e2fa140464a1dce77b1cb041af0f311276b1af7d4a,,2009/07/30 00:00:00,Female,54,PSG Diagnostic ,MCI,subject_folder_missing_on_s3
+115505742,cea4654824d5ecc3992db154f0694def56c03511a61a4057aff6c6b310ca9eff,,2009/08/14 00:00:00,Female,71,PSG all night CPAP,MCI,date_unmatched (n_bids_sessions=2)
+117865209,28be3272e3342e286fda0fb1b36c3238a1cbf847804602eee8df2cb135776f2a,,2018/03/14 00:00:00,Male,50,PSG Split night,MCI,date_unmatched (n_bids_sessions=1)
+111270995,c0c9ea4a1a24b6a1b94eb7d8187027e5e61fb521d61eb64298101396e7831f55,,2016/11/13 00:00:00,Male,72,PSG Split night,CN,subject_folder_missing_on_s3
+114499720,53ca313edf0478794e1df47b3e4e9b7067d081d6c62afc2547872627febd2d3e,,2010/05/30 00:00:00,Female,83,PSG Split night,CN,subject_folder_missing_on_s3
+120324037,a78b1421bdfed9c97b68ac70fb0610024f222714dfbacd745ad9bab5db4de818,,2017/03/19 00:00:00,Male,63,PSG all night CPAP,CN,subject_folder_missing_on_s3
+118487957,1bb71d36ed677ab1d8bb7d95f107a0eba5464eea7f0e5187cfd23a095243418c,,2017/02/21 00:00:00,Female,78,PSG Split night,CN,date_unmatched (n_bids_sessions=2)
+116676977,1eb4c5526993d4dcb0e919248a44ce1ab95d9529a0214c1da8fdb4fa3317e0e1,,2010/03/16 00:00:00,Female,50,PSG Diagnostic ,CN,subject_folder_missing_on_s3
+115035388,f003a6ecc5daf0207cf7f22868ee6c663351958ae1432881341a64b972c9bccc,f003a6ecc5daf0207cf7f22868ee6c663351958ae1432881341a64b972c9bccc_20180917_214344000                 ,2018/09/17 00:00:00,Male,66,PSG Diagnostic ,CN,date_unmatched (n_bids_sessions=1)
+115047239,a3160fe02d31bda09558aabb43e08b9de9236780f39c6930aead380e133c501a,,2010/08/21 00:00:00,Female,65,PSG Diagnostic ,CN,date_unmatched (n_bids_sessions=1)
+115610615,80e3f3755fbe98674a4dc3da76b00919127a5111fc09df8ac6cc66971dc938b1,,2017/01/27 00:00:00,Female,63,PSG Diagnostic ,MCI,date_unmatched (n_bids_sessions=5)
+111366902,2d344a54b7916c43df780ee45fd87afff47da9a49e0ec6ab570cfa1b9ae032cc,,2012/09/14 00:00:00,Male,74,PSG Split night,CN,subject_folder_missing_on_s3
+119725830,52afbbc76a505bb59f1003879887a0eb10e00a72bed42808e40063ea3b1207ec,,2008/10/08 00:00:00,Male,50,PSG Diagnostic ,CN,subject_folder_missing_on_s3
+112938704,7e1ae23637117f9afee86e66aef42c27d899451e806574c864e73e3ef901dcca,,2016/02/16 00:00:00,Female,69,PSG Diagnostic ,CN,date_unmatched (n_bids_sessions=1)
+116306059,f18abcd890c7984179e907cbad0ad6ce8053c77ced7658d6583f5cef5341f5ee,,2013/08/11 00:00:00,Female,72,PSG all night CPAP,CN,subject_folder_missing_on_s3
+122214855,5bf1075f71cbcd4a0681acecb78a15214b1591edb604640546f6e21d5b5e932e,,2017/06/11 00:00:00,Male,53,PSG Split night,CN,date_unmatched (n_bids_sessions=1)
+116930928,ea8b02759a8fc1d4cdc6496cbf0d371d064b3637ef0610989068bde86a872ba8,,2017/11/03 00:00:00,Female,57,PSG all night CPAP,CN,subject_folder_missing_on_s3
+121653749,63a7682ca41ddae3632ba144f884be25a4504a6b3b8ea28056889ff5d5b0feca,63a7682ca41ddae3632ba144f884be25a4504a6b3b8ea28056889ff5d5b0feca_20120916_223025000                 ,2012/09/16 00:00:00,Female,51,PSG Diagnostic ,CN,date_unmatched (n_bids_sessions=2)
+117046097,b48de724978b3439492d877c2810103c7e0e48a38b797d4e7a8faa1319faeed1,,2009/08/27 00:00:00,Male,70,PSG Diagnostic,CN,date_unmatched (n_bids_sessions=1)
+121726783,4fecc821da46ecb31f38dad9bd8d88b6201ba7390c9d3c3aff57aef4ac074ec8,,2009/02/19 00:00:00,Male,66,PSG Split night,CN,date_unmatched (n_bids_sessions=2)
+115169592,1576667b0179737526d6fe6b7203792fbc6b58d50dfea129e809642b9acdca74,,2014/05/19 00:00:00,Female,72,PSG all night CPAP,CN,date_unmatched (n_bids_sessions=1)
+113068942,73df5788f195748f393e6f99181de68b1ce6a78abba35576e9df675b67603cd2,,2018/05/11 00:00:00,Male,62,Titration CPAP,CN,subject_folder_missing_on_s3
+111377201,a3e5a766e3dabd4e4a2538ac563a486db98e90a9210adcfd6bf82b573165da5b,,2018/02/09 00:00:00,Male,59,Titration CPAP,CN,date_unmatched (n_bids_sessions=2)
+115206479,33af750fa4f4fffd4b65503c498754e2c498fcbd2af364246c1636258ee76636,,2019/01/26 00:00:00,Male,70,Titration CPAP,CN,date_unmatched (n_bids_sessions=1)
+117965620,030ea938ad7b1fc1955979e56a692cb6c6a358a7f7598033fcc753b9c32a788d,,2018/11/11 00:00:00,Female,61,Diagnostic,CN,date_unmatched (n_bids_sessions=1)
+118986783,ca3f103525d3028265cf0f571b6077bcb759007c1a0326d3389808727a0aeabf,,2018/04/08 00:00:00,Male,67,Diagnostic,CN,subject_folder_missing_on_s3
+115454442,3c9c1cd8ce1f0727c217af616872c7c6535dcfebaad0d2b428f030277046307b,,2017/10/28 00:00:00,Female,60,Diagnostic,CN,date_unmatched (n_bids_sessions=1)
+117014678,c63a7fee5fc1053eca249ec977b62e68e73e9bfe9c2953a2970fca82bdfc0fcc,,2018/06/27 00:00:00,Male,60,Diagnostic,CN,date_unmatched (n_bids_sessions=1)
+112042266,1dce6045c1c1360ba1971ede3529efbfc6f8ccb12a08ba6f4e68f33d4e8420c9,,2020/03/12 00:00:00,Female,74,Diagnostic,CN,subject_folder_missing_on_s3
+117669983,cb51be71a8d49c6d154e04aac3b693191db85faf7c85403be810d6e306eef3f3,cb51be71a8d49c6d154e04aac3b693191db85faf7c85403be810d6e306eef3f3_20170918_212431125                 ,2017/09/18 00:00:00,Male,69,Diagnostic,CN,date_unmatched (n_bids_sessions=1)
+112881041,97a51df5e33c444afd538b37999550fff3339fd8d882f105e7d28ca53251a820,97a51df5e33c444afd538b37999550fff3339fd8d882f105e7d28ca53251a820_20191215_215331268                 ,2019/12/15 00:00:00,Male,50,Diagnostic,MCI,subject_folder_missing_on_s3
+121526913,7c7d74cfa32cfe6e16f6299860b92e9f412af911ba4f69c9238a121c6b06238a,7c7d74cfa32cfe6e16f6299860b92e9f412af911ba4f69c9238a121c6b06238a_20180512_214704125                 ,2018/05/12 00:00:00,Male,66,Titration CPAP,CN,date_unmatched (n_bids_sessions=3)
+113746667,66804dafbb12660d3afdcb7dddec34d36ce95ef3baa27c46fbf3a4b3e9cafc5f,,2019/04/08 00:00:00,Female,84,Titration CPAP,CN,date_unmatched (n_bids_sessions=3)
+120032214,a1ad52f7aa4973b1d72b9aa064521bd4a12092703cba8ae325301da15b2720f7,,2018/02/01 00:00:00,Female,69,Diagnostic,CN,subject_folder_missing_on_s3
+115602365,a6f3358419984610da343cb6470ff3d9136e940b90e990377b9df6eaff3684d5,,2019/05/22 00:00:00,Female,70,Diagnostic,DEM,subject_folder_missing_on_s3
+115772582,25779dd9615c3873e33beb4e9e3e778f0adbc5ec29f145297a7abb8949b569c3,,2019/01/19 00:00:00,Male,70,Titration CPAP,MCI,date_unmatched (n_bids_sessions=7)
+121677130,4277d03d2f4e811344a0f418c7d56490f0d9bb26ba553b16d07881c191883932,4277d03d2f4e811344a0f418c7d56490f0d9bb26ba553b16d07881c191883932_20190108_213712125                 ,2019/01/08 00:00:00,Female,77,Split Night,MCI,subject_folder_missing_on_s3
+111457712,61c6b93df50066d7957e92897a7c8b6f08abc79aa6683dc79fe6d7b5da29455d,,2018/03/10 00:00:00,Female,71,Diagnostic,CN,subject_folder_missing_on_s3
+114528871,d7f522d31342a1b0fd0e85c31ed5e6ab121f97ab08075c2badfd0af36230a516,,2018/05/06 00:00:00,Male,62,Split Night,CN,subject_folder_missing_on_s3
+118096656,7ffab41404c795b745eb930c52ac07416a6eafbe1202711f78a3d29ff7212cbd,7ffab41404c795b745eb930c52ac07416a6eafbe1202711f78a3d29ff7212cbd_20180920_224319268                 ,2018/09/20 00:00:00,Female,70,Split Night,CN,subject_folder_missing_on_s3
+116352847,2ea1c21ae0e491f0d0dcc2452084cb2b0b342a1bc48a9b64c1e11fd125adb7ab,2ea1c21ae0e491f0d0dcc2452084cb2b0b342a1bc48a9b64c1e11fd125adb7ab_20180222_215805125                 ,2018/02/22 00:00:00,Female,65,Split Night,MCI,subject_folder_missing_on_s3
+112225663,bdfc528ea2e17ff3ff35d9772e34485f5620348e876b7809364c9308855ec658,bdfc528ea2e17ff3ff35d9772e34485f5620348e876b7809364c9308855ec658_20200229_221629268                 ,2020/02/29 00:00:00,Male,85,Split Night,CN,date_unmatched (n_bids_sessions=2)
+113753320,47d2201683d3e7538ee7cf8c4db8fbbf3b3364988a5bbc0be9db9dc7e85f6bd2,47d2201683d3e7538ee7cf8c4db8fbbf3b3364988a5bbc0be9db9dc7e85f6bd2_20200910_000116268                 ,2020/09/10 00:00:00,Female,56,Diagnostic,CN,date_unmatched (n_bids_sessions=1)
+116278110,620e1aebcc00ca069e3a6e0f475994abf52934b18a051c8742cd8e0a0935790a,,2018/06/22 00:00:00,Female,57,Diagnostic,CN,subject_folder_missing_on_s3
+113520809,294338310678313e105723065c578ebe7c28415a96e8d3ec43860a61f01b34b7,,2019/11/27 00:00:00,Male,56,Diagnostic,CN,subject_folder_missing_on_s3
+117321582,146529f326b68d1e8d1991c36d71a091fd7dd4a5ac9b8dddeeac51c0cb94a096,,2020/11/12 00:00:00,Female,77,Diagnostic,CN,subject_folder_missing_on_s3
+121233044,e8451f0fc9f765c77c0073808db072aca992bc116d841d420734f7de47422304,,2018/08/16 00:00:00,Male,73,Diagnostic,MCI,date_unmatched (n_bids_sessions=2)
+111540190,f483e1bbe204f0b27d2768b706b43b5f0004a0a90b71c81d613be2a99955a653,,2019/07/21 00:00:00,Male,80,Titration CPAP,CN,date_unmatched (n_bids_sessions=1)
+114657815,0941001ec7a3cc50b30a35b73171f7a158329eea0923656056a322742589c7f2,,2020/03/23 00:00:00,Male,63,Titration CPAP,CN,subject_folder_missing_on_s3
+119980462,e7447923766d6fb9e304578d545a24375d0568f68a1c2bcc367663b6c55dbc55,e7447923766d6fb9e304578d545a24375d0568f68a1c2bcc367663b6c55dbc55_20190531_212918268                 ,2019/05/31 00:00:00,Male,62,Split Night,CN,subject_folder_missing_on_s3
+118754415,4f06437256ea02081cddde5cde438271014d1a2a49b322fba80fafa760cf856e,4f06437256ea02081cddde5cde438271014d1a2a49b322fba80fafa760cf856e_20190427_224919125                 ,2019/04/27 00:00:00,Female,61,Split Night,CN,date_unmatched (n_bids_sessions=2)
+120250530,5e316f646dcf67d842f63c1d450d5a171311da2b03ca562321b7b89247083548,,2019/07/15 00:00:00,Male,65,Split Night,CN,subject_folder_missing_on_s3
+115806880,6943633f6a5e53e10dd92156b2ba459d2b95e468f482f7aba9a827d278a04721,,2018/12/09 00:00:00,Male,68,Split Night,CN,date_unmatched (n_bids_sessions=1)
+114041208,bd64db008956d2cc9be3aecc696da97d252002bb9de1ba289f6d16afd0569e76,bd64db008956d2cc9be3aecc696da97d252002bb9de1ba289f6d16afd0569e76_20181206_210613125                 ,2018/12/06 00:00:00,Male,53,Diagnostic,CN,subject_folder_missing_on_s3
+112110086,6b519c62483cc136e5f3ce91595007bf2786380a9c9f5254c763f2ac57f40da6,,2018/08/17 00:00:00,Male,50,Diagnostic,CN,subject_folder_missing_on_s3
+115766638,6fcea997a1bbc26508af5aebf2f4c8786f9f36d61e8b40c03330e245514b94d2,,2019/05/01 00:00:00,Female,81,Diagnostic,CN,subject_folder_missing_on_s3
+119790271,b646bdb365d98e65ed9566a5b602c1ff2c2989156d7fe0c2c50662478ef1921a,,2019/05/23 00:00:00,Female,67,Split Night,CN,date_unmatched (n_bids_sessions=1)
+114853803,ed7b4c2a8633b644237683db4291a213b607013f05fb10418f0f1473f2445cee,,2018/07/10 00:00:00,Female,66,Diagnostic,CN,date_unmatched (n_bids_sessions=2)
+113109207,5438c24b06c7b8dc34e42f82e645d8abfe17fe958767eca801be3b051ba6242e,,2018/03/24 00:00:00,Male,61,Diagnostic,MCI,subject_folder_missing_on_s3
+114608516,d538b4f0445e186bd6f9e5b6cde24ee5b1ff98d82a1b4be6b63ee0ce9e077595,,2019/02/12 00:00:00,Male,79,Split Night,MCI,subject_folder_missing_on_s3
+115857572,b7717b29735c14380ed6362052697858689b758db9517b16891d60cd360a0f33,b7717b29735c14380ed6362052697858689b758db9517b16891d60cd360a0f33_20191222_222351268                 ,2019/12/22 00:00:00,Male,69,Titration CPAP,CN,subject_folder_missing_on_s3
