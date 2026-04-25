@@ -1,0 +1,10 @@
+EPOCH	
+MASK	all	
+MASK	unmask-if=${stage}	
+RESTRUCTURE	
+FILTER	sig=${eeg}	bandpass=0.1,20	ripple=0.02	tw=1	
+ARTIFACTS	sig=${eeg}	mask	
+SIGSTATS	epoch	sig=${eeg}	mask	threshold=3,3,3	
+RESTRUCTURE	
+SPINDLES	q=0	sig=${eeg}	method=wavelet	cycles=7	fc=13.5	ftr-dir=fcAnnotsOut/	th=4.5	min=0.5	max=3	collate	merge=0.5	f-lwr=0.5	f-upr=4	mag=1	
+RESTRUCTURE	

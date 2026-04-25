@@ -1,0 +1,5 @@
+(?:[\s][Dd]own\'s)|(?:[\s][Dd]own.{0,100}[Ss]yndrome)
+[Bb]rain[\s]{0,10}[Dd]amage|[Bb]rain[\s]{0,10}[Tt]rauma
+[Ss]troke
+[Dd]evelopmental.{0,100}(?![Dd]islocat)
+[Bb]rain[\s]{0,10}[Tt]umor

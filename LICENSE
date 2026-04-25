@@ -1,0 +1,56 @@
+Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)
+
+Copyright (c) 2025 Massachusetts General Hospital and the Brain Data Science Platform.
+
+This work — both the code in this repository and the deidentified data
+hosted at s3://bdsp-opendata-credentialed/sleep-dementia-detection/ — is
+licensed under a Creative Commons Attribution-NonCommercial 4.0
+International License.
+
+You are free to:
+
+  Share — copy and redistribute the material in any medium or format
+  Adapt — remix, transform, and build upon the material
+
+Under the following terms:
+
+  Attribution — You must give appropriate credit, provide a link to the
+    license, and indicate if changes were made. You may do so in any
+    reasonable manner, but not in any way that suggests the licensor
+    endorses you or your use.
+
+  NonCommercial — You may not use the material for commercial purposes.
+
+  No additional restrictions — You may not apply legal terms or
+    technological measures that legally restrict others from doing
+    anything the license permits.
+
+Notices:
+
+  You do not have to comply with the license for elements of the material
+  in the public domain or where your use is permitted by an applicable
+  exception or limitation.
+
+  No warranties are given. The license may not give you all of the
+  permissions necessary for your intended use. For example, other rights
+  such as publicity, privacy, or moral rights may limit how you use the
+  material.
+
+For the full legal code, see:
+https://creativecommons.org/licenses/by-nc/4.0/legalcode
+
+For a human-readable summary, see:
+https://creativecommons.org/licenses/by-nc/4.0/
+
+When citing this work, please cite the original paper:
+
+  Ye EM, Sun H, Krishnamurthy PV, Adra N, Ganglberger W, Thomas RJ,
+  Lam AD, Westover MB. Dementia detection from brain activity during
+  sleep. Sleep. 2023;46(3):zsac286. doi:10.1093/sleep/zsac286
+
+Some files in this repository are derived from upstream open-source
+projects with their own licenses (see the file headers in
+`code/02_features/` and `code/03_spindle/LUNAspindles/`); those files
+remain under their original licenses, and the CC BY-NC 4.0 license above
+applies to the assembly and integration work contributed by this
+repository.
