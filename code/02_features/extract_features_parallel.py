@@ -27,7 +27,10 @@ import nitime.algorithms as tsa
 #sys.path.insert(0,'SHHS_test')
 from multitaper_spectrogram import *
 from bandpower import *
-SAMPEN_PATH = '~/<USER>/physiotools_sampen_c/sampen'  # https://www.physionet.org/physiotools/sampen/
+import os
+# Path to the compiled `sampen` binary from PhysioNet's physiotools.
+# https://www.physionet.org/physiotools/sampen/
+SAMPEN_PATH = os.environ.get("SAMPEN_PATH", "/usr/local/bin/sampen")
 
 
 #pxx_mts = []

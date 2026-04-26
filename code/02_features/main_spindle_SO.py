@@ -185,17 +185,18 @@ write.xlsx(d_sw, '%s', sheetName='sw', append=TRUE, row.names=FALSE)"""%(luna_db
 
 
 if __name__=='__main__':
-    
+    # Demo: load a subject manifest and a (deidentified) cohort table, then
+    # run spindle/slow-oscillation feature extraction on the joined subset.
+    # Replace the two paths below with your local files; both should contain
+    # a `PID` column identifying each PSG.
     df_paths = pd.read_excel('subject_files.xlsx')
     df = pd.read_csv('cohort_subset.csv')
-    
+
     df_paths['PID'] = [os.path.basename(df_paths.signal_path[i])[len('Signal_'):-4].replace(',','').replace('.', '') for i in range(len(df_paths))]
     df.PID = df.PID.str.replace(',', '').replace('.', '')
     df_paths = df_paths.join(df.set_index('PID'), on='PID', how='right')
-    
-    df_paths = df_paths[df_paths.PID=='TwinData3_263']
-    
+
     res = detect_spindle_so(df_paths, 'spindles', ['C3M2','C4M1'])
-    
+
     res.to_excel('spindle_so_complete.xlsx', index=False)
     

@@ -12,9 +12,14 @@ if __name__=='__main__':
     outcome = str(sys.argv[1])
     assert outcome in ['MCI+Dementia', 'Dementia']#, 'AD', 'PD', 'VaD']
 
-    criteria_path = 'Dementia_MCI_table_Elissa.xlsx'
-    last_time_path = '../shared_data/MGH/df_status_final.csv'
-    features_path = '${SBOP_DATA_ROOT}/shared_data/MGH/to_be_used_features.csv'
+    # Override these via the corresponding environment variables when running
+    # against the BDSP-deID release on S3.
+    criteria_path = os.environ.get("DEMENTIA_CRITERIA_PATH",
+                                   "Dementia_MCI_table.xlsx")
+    last_time_path = os.environ.get("DEMENTIA_STATUS_FINAL_PATH",
+                                    "../shared_data/MGH/df_status_final.csv")
+    features_path = os.environ.get("DEMENTIA_FEATURES_PATH",
+                                   "../shared_data/MGH/to_be_used_features.csv")
     
     # get
     criteria_df = pd.read_excel(criteria_path)

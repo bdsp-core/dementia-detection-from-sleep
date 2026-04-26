@@ -10,7 +10,9 @@ from tqdm import tqdm
 
 ## load data
 
-data_path = '${DEMENTIA_DATA_ROOT}'
+# Set DEMENTIA_DATA_ROOT to the directory containing medical_data/ on your local
+# machine. See data/README.md for the layout of the labeling inputs.
+data_path = os.environ.get("DEMENTIA_DATA_ROOT", "./dementia_data_root")
 
 criteria_df = pd.read_csv(os.path.join(data_path, 'medical_data/study_criteria_table.csv'))
 criteria_df = criteria_df[['FolderName', 'PatientID', 'EMPI', 'MRN', 'MRN_key',

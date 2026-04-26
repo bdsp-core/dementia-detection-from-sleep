@@ -54,7 +54,6 @@ sleep-dementia-detection/
 ├── LICENSE               CC BY-NC 4.0
 ├── README.md             This file
 ├── STATUS.md             Per-component reproducibility status
-├── ToDo.md               Remaining integration / publishing work
 └── requirements.txt
 ```
 
@@ -101,7 +100,7 @@ Match rates: 99.97 % on the cohort table, 98.3-98.8 % on the feature tables. Fiv
 
 ## Reproducibility status
 
-This repository assembles the project's working tree from Box (`(internal)/(internal)/Projects/dementia_detection/`) and Dropbox (internal collaboration folders) into a single layout. **All paper notebooks are present**, with cell outputs stripped to remove dataframe-preview PHI. The remaining work (path adaptation, end-to-end test, figure regeneration on the deidentified data) is tracked in [STATUS.md](STATUS.md) and [ToDo.md](ToDo.md).
+This repository assembles the project's working tree from internal collaboration folders into a single, public layout. **All paper notebooks are present**, with cell outputs stripped to remove dataframe-preview PHI. The remaining work (path adaptation, end-to-end test, figure regeneration on the deidentified data) is tracked in [STATUS.md](STATUS.md).
 
 ## How to cite
 
